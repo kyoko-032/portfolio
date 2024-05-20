@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyoko's Portfolio</title>
+    <meta name="description" content="検索結果でサイト名の下に表示される「サイトの説明文」">
+    <!-- OGP -->
+    <link rel="apple-touch-icon" sizes="180x180" href="アップルタッチ用のファビコン.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="32サイズのファビコン画像.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="16サイズのファビコン画像.png">
+    <meta property="og:description" content="SNSでシェアされたときに表示するサイトの説明文">
+    <meta property="og:title" content="Kyoko's Portfolio">
+    <meta property="og:image" content="SNSでシェアされたときに表示する画像※かならず絶対パスを記載（相対パス不可）https://....../img/icons/logo.png">
+    <meta property="og:image:width" content="画像の幅px">
+    <meta property="og:image:height" content="画像の高さpx">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://........">
+    <!-- webfont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+    <div class="bg">
+        <div class="bg-slider">
+            <div class="bg-slider-item bg-slider-01"></div>
+        </div>
+        <!-- /.bg-slider -->
+    </div>
+    <!-- /.bg -->
+
+    <div class="contents">
+        <div class="contents-pc">
+            <div class="contents-wrap">
+                <h2>KP</h2>
+                <span>Kyoko's</span>
+                <span>Portfolio</span>
+            </div>
+            <!-- /.contents-wrap -->
+        </div>
+        <!-- /.content-pc -->
+
+        <main>
+            <header>
+                <a href="/">
+                    <h1>KP</h1>
+                    <span>Kyoko's Portfolio</span>
+                </a>
+            </header>
+            <!-- /header -->
+
+            <article>
+                <h3>経済産業省資源エネルギー庁<br>省エネラベルページ</h3>
+                
+                <div class="works-tag">
+                    <span class="base">コーディング</span>
+                </div>
+                
+                <div class="works-url">
+                    <p id="copyTarget">https://www.enecho.meti.go.jp/category/saving_and_new/saving/enterprise/retail/touitsu_shoenelabel/</p>
+                    <button onclick="copyBtn('copyTarget')">Copy text</button>
+                </div>
+
+                <figure><img src="/assets/img/004_shoenelabel.jpg" alt="経済産業省資源エネルギー庁 省エネラベルページ" width="1920" height="911"></figure>
+
+                <div class="works-detail">
+                    <div class="works-detail-inner">
+                        <dl>
+                            <dt>担当工程</dt>
+                            <dd>コーディング、単体テスト</dd>
+                        </dl>
+                    </div>
+
+                    <div class="works-detail-inner">
+                        <dl>
+                            <dt>制作環境</dt>
+                            <dd>HTML、CSS、Javascript</dd>
+                        </dl>
+                    </div>
+
+                    <div class="works-detail-inner">
+                        <dl>
+                            <dt>制作意図</dt>
+                            <dd>コーディングルールの指定に沿って制作する必要があるページでした。<br>
+                            メインコンテンツの省エネラベルの箇所は、モーダル内にスクロールが必要であり、またPC/SPで見え方も少し違ったので、コーディング作業時に一番苦労しましたが、自力で調べた結果を組み合わせて、この難所を乗り越えることが出来ました。</dd>
+                        </dl>
+                    </div>
+                </div>
+                <!-- /.works-detail -->
+
+                <div class="back-btn"><a class="btn" href="/">← 戻る</a></div>
+                <!-- /.back-btn -->
+            </article>
+        </main>
+    </div>
+    <!-- /.content -->
+
+    <footer>
+        <p>&copy; 2024 Kyoko Nakahara All rights reserved</p>
+    </footer>
+    <!-- /footer -->
+
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>

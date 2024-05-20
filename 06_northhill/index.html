@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyoko's Portfolio</title>
+    <meta name="description" content="検索結果でサイト名の下に表示される「サイトの説明文」">
+    <!-- OGP -->
+    <link rel="apple-touch-icon" sizes="180x180" href="アップルタッチ用のファビコン.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="32サイズのファビコン画像.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="16サイズのファビコン画像.png">
+    <meta property="og:description" content="SNSでシェアされたときに表示するサイトの説明文">
+    <meta property="og:title" content="Kyoko's Portfolio">
+    <meta property="og:image" content="SNSでシェアされたときに表示する画像※かならず絶対パスを記載（相対パス不可）https://....../img/icons/logo.png">
+    <meta property="og:image:width" content="画像の幅px">
+    <meta property="og:image:height" content="画像の高さpx">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://........">
+    <!-- webfont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+    <header>
+
+    </header>
+    <!-- /header -->
+
+    <div class="bg">
+        <div class="bg-slider">
+            <div class="bg-slider-item bg-slider-01"></div>
+        </div>
+        <!-- /.bg-slider -->
+    </div>
+    <!-- /.bg -->
+
+    <div class="contents">
+        <div class="contents-pc">
+            <div class="contents-wrap">
+                <h2>KP</h2>
+                <span>Kyoko's</span>
+                <span>Portfolio</span>
+            </div>
+            <!-- /.contents-wrap -->
+        </div>
+        <!-- /.content-pc -->
+
+        <main>
+            <header>
+                <a href="/">
+                    <h1>KP</h1>
+                    <span>Kyoko's Portfolio</span>
+                </a>
+            </header>
+            <!-- /header -->
+
+            <article>
+                <h3>ノースヒル</h3>
+                
+                <div class="works-tag">
+                    <span class="base">コーディング</span>
+                </div>
+                
+                <div class="works-url">
+                    <p id="copyTarget">https://www.north-hill.co.jp/</p>
+                    <button onclick="copyBtn('copyTarget')">Copy text</button>
+                </div>
+
+                <figure><img src="/assets/img/006_northhill.jpg" alt="ノースヒル" width="1920" height="911"></figure>
+
+                <div class="works-detail">
+                    <div class="works-detail-inner">
+                        <dl>
+                            <dt>担当工程</dt>
+                            <dd>詳細設計、コーディング、WordPress実装、単体テスト、総合テスト</dd>
+                        </dl>
+                    </div>
+
+                    <div class="works-detail-inner">
+                        <dl>
+                            <dt>制作環境</dt>
+                            <dd>HTML、CSS、Javascript、WordPress</dd>
+                        </dl>
+                    </div>
+
+                    <div class="works-detail-inner">
+                        <dl>
+                            <dt>制作意図</dt>
+                            <dd>まずメインビジュアルは、アニメーションを入れてほしいとのことでしたので、社内の映像チームからAPNGをもらい、それらを組み合わせてデザイナーの想定通りの動きになるようにJSで組み合わせました。<br>
+                            ※動きがある箇所は、緑幕、屋根上の猫、中央ののれん、右側の窓です。<br>
+                            サイト全体のコーディングも行いました。WordPressの実装は社内エンジニアが担当だったので、こちらでもデータを引き渡した際に見やすいようにコメントを入れるなど工夫をしました。また、デザイナーが3人関わっていて、仕様がバラバラだったので、仕様の統一をし、社内エンジニアとも密に連携を取りました。</dd>
+                        </dl>
+                    </div>
+                </div>
+                <!-- /.works-detail -->
+
+                <div class="back-btn"><a class="btn" href="/">← 戻る</a></div>
+                <!-- /.back-btn -->
+            </article>
+        </main>
+    </div>
+    <!-- /.content -->
+
+    <footer>
+        <p>&copy; 2024 Kyoko Nakahara All rights reserved</p>
+    </footer>
+    <!-- /footer -->
+
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
