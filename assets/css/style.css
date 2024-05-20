@@ -206,6 +206,9 @@ main{
         margin-bottom: 60px;
 
         & .works-slider{
+            padding-bottom: 70px;
+            position: relative;
+
             & .works-slider-item{
                 display: flex;
                 flex-direction: column;
@@ -220,6 +223,44 @@ main{
         }
         & .slick-slide{
             height: auto;
+        }
+        & .slick-prev{
+            position: absolute;
+            top: auto;
+            bottom: 0;
+            left: 15px;
+            height: 30px;
+            aspect-ratio: cos(30deg);
+            clip-path: polygon(100% 0,0 50%,100% 100%);
+            background-color: #2D50B6;
+            transition: all .5s;
+
+            &:hover{
+                opacity: .5;
+            }
+
+            &::before{
+                display: none;
+            }
+        }
+        & .slick-next{
+            position: absolute;
+            top: auto;
+            bottom: 0;
+            right: 15px;
+            height: 30px;
+            aspect-ratio: cos(30deg);
+            clip-path: polygon(0 0,100% 50%,0 100%);
+            background-color: #2D50B6;
+            transition: all .5s;
+
+            &:hover{
+                opacity: .5;
+            }
+
+            &::before{
+                display: none;
+            }
         }
 
         & .works-name{
