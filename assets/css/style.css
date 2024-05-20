@@ -65,13 +65,13 @@ dl, dd{
 }
 
 .bg-slider{
-    & .bg-slider-01{ background-image: url(/assets/img/001_takarauniv.jpg);}
-    & .bg-slider-02{ background-image: url(/assets/img/002_beginners.jpg);}
-    & .bg-slider-03{ background-image: url(/assets/img/003_belfemin.jpg);}
-    & .bg-slider-04{ background-image: url(/assets/img/004_shoenelabel.jpg);}
-    & .bg-slider-05{ background-image: url(/assets/img/005_yamanakashoji.jpg);}
-    & .bg-slider-06{ background-image: url(/assets/img/006_northhill.jpg);}
-    & .bg-slider-07{ background-image: url(/assets/img/007_kiracreate.jpg);}
+    & .bg-slider-01{ background-image: url(../img/001_takarauniv.jpg);}
+    & .bg-slider-02{ background-image: url(../img/002_beginners.jpg);}
+    & .bg-slider-03{ background-image: url(../img/003_belfemin.jpg);}
+    & .bg-slider-04{ background-image: url(../img/004_shoenelabel.jpg);}
+    & .bg-slider-05{ background-image: url(../img/005_yamanakashoji.jpg);}
+    & .bg-slider-06{ background-image: url(../img/006_northhill.jpg);}
+    & .bg-slider-07{ background-image: url(../img/007_kiracreate.jpg);}
 
     & .slick-slide{
         background-repeat: no-repeat;
